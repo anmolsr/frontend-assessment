@@ -27,7 +27,7 @@ const items = [
   <div class="container py-6">
     <!-- <ContentCard v-for="(data, index) in contentData" :key="index" :data="data"/> -->
     <div class="space-y-4 sm:grid sm:grid-cols-2 sm:space-y-0 sm:gap-4 lg:grid-cols-3">
-      <ContentCard v-for="item in items" :key="item.id" :data="item" />
+      <ContentCard v-for="item in items" :key="item.id" :data="item" class="flex flex-col"/>
     </div>
   </div>
 </template>

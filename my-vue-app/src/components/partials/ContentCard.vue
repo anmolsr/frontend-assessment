@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
     <CardHeader>
       <img :src="data.image" alt="Card Image" />
     </CardHeader>
-    <CardContent class="text-center">
+    <CardContent class="text-center flex-grow">
       {{ data.description }}
     </CardContent>
     <CardFooter class="text-center">

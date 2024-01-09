@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import Hero from "./components/partials/Hero.vue";
+import Content from "./components/partials/Content.vue";
 </script>
 
 <template>
   <Hero />
-  <div class="container py-8">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-  </div>
+  <Content/>
 </template>

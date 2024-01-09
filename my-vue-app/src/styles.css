@@ -83,7 +83,7 @@ h1, h2{
 
 /*********** Hero ***********/
 .ar-hero{
-  @apply bg-[url('https://via.placeholder.com/600x600')] lg:bg-[url('https://via.placeholder.com/1920x650')] min-h-[420px] lg:min-h-[650px] bg-cover 
+  @apply bg-[url('https://via.placeholder.com/600x600')] lg:bg-[url('https://via.placeholder.com/1920x650')] min-h-[420px] lg:min-h-[650px] bg-cover bg-center;
 }
 .ar-flex-center{
   @apply flex flex items-center justify-center;
